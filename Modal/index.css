@@ -1,0 +1,52 @@
+#main__container{
+    text-align: center;
+}
+
+
+#modal--btn{
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: azure;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#modal{
+    display: none;
+    position: fixed;
+    border: 2px solid black;
+    width: 50%;
+    height: 200px;
+    left: 30%;
+    top: 30%;
+    border-radius: 30px;
+    background-color: beige;
+}
+
+.title > h2{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: start;
+    width: 80%;
+}
+.title >button{
+    vertical-align:middle ;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+}
+
+#overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+}
