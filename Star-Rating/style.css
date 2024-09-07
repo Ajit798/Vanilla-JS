@@ -1,0 +1,27 @@
+.container{
+    background:white;
+    height:200px;
+}
+    
+#star-container{
+    border:1px solid black;
+    height:100px;
+    width:400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-star{
+    border: 1px solid red;
+    padding: 8px 16px;
+
+}
+
+.rated{
+    background-color: green;
+    color: white;
+
+}
